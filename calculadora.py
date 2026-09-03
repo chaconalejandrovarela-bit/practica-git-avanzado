@@ -1,3 +1,9 @@
+# ============================================
+# CALCULADORA - Funciones adicionales
+# Agreguen estas funciones a su calculadora.py,
+# una por una, con su propio commit para cada una
+# ============================================
+
 # Calculadora
 
 def sumar(a, b):
@@ -32,3 +38,6 @@ def factorial(n):
         resultado *= i
 
     return resultado
+
+def potencia(base, exponente):
+    return base ** exponente
