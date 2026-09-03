@@ -54,6 +54,7 @@ def raiz_cuadrada(numero):
 def promedio(lista_numeros):
     return sum(lista_numeros) / len(lista_numeros)
 
+# funcion modulo 
 def modulo(a, b):
     if b == 0:
         return "Error: no se puede calcular modulo con cero"
