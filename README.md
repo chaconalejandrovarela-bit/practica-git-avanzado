@@ -139,3 +139,9 @@ muestra este comando.
 ## ✅ Entrega
 
 Link de tu repositorio (fork) + pantallazo de "git log --oneline"
+
+
+## Investigación adicional
+
+El comando `git reflog` muestra un registro de los movimientos que ha realizado HEAD en el repositorio.
+Permite consultar acciones como commits, resets, cambios de rama y otras modificaciones recientes.
