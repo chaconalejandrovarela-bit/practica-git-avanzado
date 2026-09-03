@@ -39,5 +39,9 @@ def factorial(n):
 
     return resultado
 
-def potencia(base, exponente):
-    return base ** exponente
+def radicacion(a, b):
+    if b == 0:
+        return "Error: el índice no puede ser cero"
+    if a < 0 and b % 2 == 0:
+        return "Error: no existe raíz par de un número negativo"
+    return a ** (1 / b)
