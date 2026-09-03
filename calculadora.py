@@ -50,3 +50,14 @@ def raiz_cuadrada(numero):
     if numero < 0:
         return "Error: no existe raiz de un numero negativo"
     return numero ** 0.5
+
+def promedio(lista_numeros):
+    return sum(lista_numeros) / len(lista_numeros)
+
+def modulo(a, b):
+    if b == 0:
+        return "Error: no se puede calcular modulo con cero"
+    return a % b
+
+def valor_absoluto(numero):
+    return abs(numero)
