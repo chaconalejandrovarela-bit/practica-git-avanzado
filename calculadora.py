@@ -45,3 +45,8 @@ def radicacion(a, b):
     if a < 0 and b % 2 == 0:
         return "Error: no existe raíz par de un número negativo"
     return a ** (1 / b)
+
+def raiz_cuadrada(numero):
+    if numero < 0:
+        return "Error: no existe raiz de un numero negativo"
+    return numero ** 0.5
