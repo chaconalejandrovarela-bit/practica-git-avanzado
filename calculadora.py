@@ -61,3 +61,8 @@ def modulo(a, b):
 
 def valor_absoluto(numero):
     return abs(numero)
+
+def maximo(a, b):
+    if a == b:
+        return "Los numeros son iguales"
+    return max(a, b)
